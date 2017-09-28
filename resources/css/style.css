@@ -1,0 +1,120 @@
+/* Universal Styles */
+/* http://paletton.com/#uid=23N0u0kadnKcYaJc3gk64wl3NMO */
+html {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Header */
+.header {
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 64px;
+  width:100%;
+  padding: 0 1 24px;
+  font-family: Helvetica; /* new font */
+  font-size: 20px;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  height: 32px;
+  font-family: Verdana; /* new font */
+}
+.header img {
+  height: 32px;
+}
+#logocolor1 {
+  color: #252A3A;
+  font-weight: bold;
+}
+#logocolor2 {
+  color: #8F97AD;
+}
+.header ul {
+  padding-right: 24px;
+}
+.header li {
+  display: inline;
+  padding-right: 24px;
+  font-family: Helvetica; /* new font */
+}
+.header li a {
+  text-decoration: none;
+  color: #3A4258;
+}
+
+/* Jumbotron*/
+.jumbotron {
+  background-color: #C3C9DA;
+  height: 664px;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 64px;
+}
+.jumbotron .image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 24px;
+  width: 60%;
+}
+
+.jumbo img {
+  flex-grow: 1;
+  height: 600px;
+}
+.jumbotron .motto {
+  width: 30%;
+  display: block;
+  align-content: center;
+}
+.jumbotron h1 {
+  font-family: Verdana; /* new font */
+  font-weight: bold;
+  font-size: 48px;
+  margin-left: 24px;
+  color: #3A4258;
+}
+.jumbotron h3 {
+  font-family: Verdana; /* new font */
+  font-weight: bold;
+  font-size: 24px;
+  margin: 24px 24px;
+  color: #3A4258;
+}
+.button {
+  background-color: #252A3A;
+  text-align: center;
+  width:100%;
+  border-radius: 3px;
+  padding: 8px 0px;
+}
+
+.button a{
+  font-family: Helvetica; /* new font */
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #827251;
+}
+.button:active {
+  background-color: #FFEFCF;
+}
+
+.button:visited {
+  background-color: #827251;
+  color: darkblue;
+}
