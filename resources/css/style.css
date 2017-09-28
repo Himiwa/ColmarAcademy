@@ -118,3 +118,32 @@ html {
   background-color: #827251;
   color: darkblue;
 }
+
+/* Intro*/
+.intropage {
+  background-color: white;
+  height: 764px;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 64px;
+}
+.intropage .introduction {
+  display: block;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 32px 24px;
+  width: 60%;
+  border:10px solid red;
+}
+.introduction img {
+  flex-grow: 1;
+  height: 500px;
+}
+.introduction h2 {
+  font-family: Verdana; /* new font */
+  font-weight: bold;
+  font-size: 48px;
+  margin-left: 24px;
+}
