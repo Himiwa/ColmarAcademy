@@ -233,3 +233,167 @@ html {
   text-decoration: none;
   color: #1C8FE8;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Thesis section*/
+.thesis-section {
+  background-color: white;
+  height: 54rem;
+  width: 100%;
+  display: block;
+  border: 5px solid red;
+}
+.thesis-title h2 {
+  font-family: Verdana; /* new font */
+  font-weight: bold;
+  color: #3A4258;
+  font-size: 3rem;
+  margin: 2rem 0rem;
+  width: 100%;
+  text-align: center;
+  border: 5px solid orange;
+}
+.thesis-second-section {
+    border: 5px solid lightgreen;
+    height: rem;  /*need a height*/
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.thesis-intro{
+  display: block;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 60%;
+  color: #3A4258;
+  border: 5px solid lightblue;
+}
+.thesis-intro .image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 37.5rem;
+  margin: 0rem 1.5rem;
+  border: 5px solid lavender;
+  width: 100%;
+}
+
+.thesis-intro video {
+  flex-grow: 1;
+  flex-shrink: 2;
+  max-width: 100%;
+  height: auto;
+}
+.thesis-intro h3 {
+  font-family: Verdana; /* new font */
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1.5rem 1.5rem 0rem 1.5rem;
+  border: 5px solid lime;
+}
+.thesis-intro h4 {
+  font-family: Verdana; /* new font */
+  font-weight: normal;
+  font-size: 1rem;
+  margin: 0.5rem 1.5rem 0rem 1.5rem;
+    border: 5px solid skyblue;
+}
+
+
+
+/*Side of the thing*/
+
+.intro {
+  width: 40%;
+  display: block;
+  height: 54rem;
+  padding-left: 1rem;
+  align-content: center;
+}
+.info-square {
+  display: flex;
+  border:1px solid #C3C9DA;
+  margin-left: 10%;
+}
+.info-square:hover {
+  background-color: #827251;  /*need differentcolor*/
+}
+.numeroun {
+  padding-top: 2rem;
+  margin-bottom: 1px;
+}
+.numerodeux {
+  margin-bottom: 1px;
+}
+.numerotrois {
+  padding-bottom: 2rem;
+}
+.info-square img {
+  width: 35%;
+  height: 14.5rem;
+  margin: 1rem 1rem;
+}
+.info-square-text {
+  margin: 1rem 1rem;
+  padding: 3rem 0px 3rem 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 65%;
+}
+.info-square-text h3 {
+  font-family: Verdana; /* new font */
+  font-weight: bold;
+  color: #3A4258;
+  font-size: 1.5rem;
+  width: 100%;
+}
+.info-square-text p {
+  font-family: Verdana; /* new font */
+  font-weight: 300;
+  color: #3A4258;
+  font-size: 1rem;
+  margin: 0.5rem 0px;
+}
+.info-square-text a {
+  font-family: Verdana; /* new font */
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: none;
+  color: #1C8FE8;
+}
