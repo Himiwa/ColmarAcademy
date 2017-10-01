@@ -234,36 +234,22 @@ html {
   color: #1C8FE8;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*course menu section*/
+.course-menu {
+  background-color: #C3C9DA;
+  height: 54rem;
+  width: 100%;
+  display: block;
+}
+#thesis-title {
+  font-family: Verdana; /* new font */
+  font-weight: bold;
+  color: #3A4258;
+  font-size: 3rem;
+  margin: 2rem 0rem;
+  width: 100%;
+  text-align: center;
+}
 
 
 
@@ -273,7 +259,6 @@ html {
   height: 54rem;
   width: 100%;
   display: block;
-  border: 5px solid red;
 }
 .thesis-title h2 {
   font-family: Verdana; /* new font */
@@ -283,25 +268,21 @@ html {
   margin: 2rem 0rem;
   width: 100%;
   text-align: center;
-  border: 5px solid orange;
 }
 .thesis-second-section {
-    border: 5px solid lightgreen;
-    height: rem;  /*need a height*/
     width: 100%;
     display: inline-flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
 }
 
-.thesis-intro{
+.thesis-intro {
   display: block;
   align-items: center;
   align-content: center;
   justify-content: center;
   width: 60%;
   color: #3A4258;
-  border: 5px solid lightblue;
 }
 .thesis-intro .image-container {
   display: flex;
@@ -309,7 +290,6 @@ html {
   justify-content: center;
   height: 37.5rem;
   margin: 0rem 1.5rem;
-  border: 5px solid lavender;
   width: 100%;
 }
 
@@ -324,51 +304,33 @@ html {
   font-weight: bold;
   font-size: 1.5rem;
   margin: 1.5rem 1.5rem 0rem 1.5rem;
-  border: 5px solid lime;
 }
 .thesis-intro h4 {
   font-family: Verdana; /* new font */
   font-weight: normal;
   font-size: 1rem;
   margin: 0.5rem 1.5rem 0rem 1.5rem;
-    border: 5px solid skyblue;
 }
 
-
-
-/*Side of the thing*/
-
-.intro {
-  width: 40%;
-  display: block;
-  height: 54rem;
-  padding-left: 1rem;
-  align-content: center;
-}
-.info-square {
+.thesis-square {
   display: flex;
-  border:1px solid #C3C9DA;
   margin-left: 10%;
 }
-.info-square:hover {
+.thesis-square:hover {
   background-color: #827251;  /*need differentcolor*/
 }
-.numeroun {
-  padding-top: 2rem;
+.premier {
   margin-bottom: 1px;
 }
-.numerodeux {
-  margin-bottom: 1px;
-}
-.numerotrois {
+.deuxieme {
   padding-bottom: 2rem;
 }
-.info-square img {
+.thesis-square img {
   width: 35%;
   height: 14.5rem;
   margin: 1rem 1rem;
 }
-.info-square-text {
+.thesis-square-text {
   margin: 1rem 1rem;
   padding: 3rem 0px 3rem 0px;
   display: flex;
@@ -376,24 +338,32 @@ html {
   justify-content: space-around;
   width: 65%;
 }
-.info-square-text h3 {
+.thesis-square-text h3 {
   font-family: Verdana; /* new font */
   font-weight: bold;
   color: #3A4258;
   font-size: 1.5rem;
   width: 100%;
 }
-.info-square-text p {
+.thesis-square-text p {
   font-family: Verdana; /* new font */
   font-weight: 300;
   color: #3A4258;
   font-size: 1rem;
   margin: 0.5rem 0px;
 }
-.info-square-text a {
+
+/*footer*/
+footer {
+  display: inline-flex;
+  width: 100%;
+  height: 4rem;
+  display:space-around;
+  border-top: 1px solid #C3C9DA;
+}
+footer p {
   font-family: Verdana; /* new font */
   font-weight: 300;
-  font-size: 16px;
-  text-decoration: none;
-  color: #1C8FE8;
+  font-size: 0.75rem;
+  margin: 1rem 1.5rem;
 }
