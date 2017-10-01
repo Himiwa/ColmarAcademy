@@ -237,9 +237,10 @@ html {
 /*course menu section*/
 .course-menu {
   background-color: #C3C9DA;
-  height: 54rem;
+  height: auto;
   width: 100%;
   display: block;
+  padding: 2rem 4.5rem;
 }
 #thesis-title {
   font-family: Verdana; /* new font */
@@ -250,8 +251,57 @@ html {
   width: 100%;
   text-align: center;
 }
+.courses {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.course-square {
+display: flex;
+flex-flow: column wrap;
+margin-bottom: 2rem;
+width: 25%;
+}
 
-
+.course-square img {
+  width: 100%;
+  height: 14.5rem;
+}
+.deux,
+.cinq {
+  margin: 0rem 2rem;
+}
+.course-square-text {
+  background-color: white;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.course-square-text h3 {
+  font-family: Verdana; /* new font */
+  font-weight: bold;
+  color: #3A4258;
+  font-size: 1.5rem;
+  width: 100%;
+}
+.course-square-text h5 {
+  font-family: Verdana; /* new font */
+  font-weight: bold;
+  color: #3A4258;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom : 0.5rem;
+  width: 100%;
+}
+.course-square-text p {
+  font-family: Verdana; /* new font */
+  font-weight: 300;
+  color: #3A4258;
+  font-size: 1rem;
+  margin: 0.5rem 0px;
+}
 
 /* Thesis section*/
 .thesis-section {
@@ -357,9 +407,15 @@ html {
 footer {
   display: inline-flex;
   width: 100%;
-  height: 4rem;
-  display:space-around;
+  height: 4rem;;
   border-top: 1px solid #C3C9DA;
+}
+footer .left {
+  width: 50%;
+}
+footer .right {
+  text-align: right;
+  width: 50%;
 }
 footer p {
   font-family: Verdana; /* new font */
