@@ -10,65 +10,65 @@
 <body>
   <!-- Header -->
   <header>
-    <nav class="header">
-      <span class="logo"> <img src="./resources/images/ic-logo.svg" /> <span id="logocolor1">COLMAR</span><span id="logocolor2">ACADEMY</span></span>
-      <ul>
-        <li><a href="#">On Campus</a></li>
-        <li><a href="#">Online</a></li>
-        <li><a href="#">Our Companies</a></li>
-        <li><a href="#">Sign in</a></li>
+    <nav class="header" role="navigation">
+      <span class="logo"> <img role="img" src="./resources/images/ic-logo.svg" /> <span id="logocolor1">COLMAR</span><span id="logocolor2">ACADEMY</span></span>
+      <ul role="list">
+        <li role"listitem"><a href="#">On Campus</a></li>
+        <li role"listitem"><a href="#">Online</a></li>
+        <li role"listitem"><a href="#">Our Companies</a></li>
+        <li role"listitem"><a href="#">Sign in</a></li>
       </ul>
     </nav>
 
-    <nav class="header-mobile">
-      <span id="logo"> <img src="./resources/images/ic-logo.svg" /></span>
-      <span id="campus logo"> <img src="./resources/images/ic-on-campus.svg" /></span>
-      <span id="online logo"> <img src="./resources/images/ic-online.svg" /></span>
-      <span id="signin logo"> <img src="./resources/images/ic-login.svg" /></span>
+    <nav class="header-mobile" role="navigation">
+      <span id="logo"> <img role="img" src="./resources/images/ic-logo.svg" /></span>
+      <span id="campus logo"> <img role="img" src="./resources/images/ic-on-campus.svg" /></span>
+      <span id="online logo"> <img role="img" src="./resources/images/ic-online.svg" /></span>
+      <span id="signin logo"> <img role="img" src="./resources/images/ic-login.svg" /></span>
     </nav>
   </header>
 
     <!-- Jumbotron -->
-  <div class="jumbotron">
-    <div class="jumbo image-container">
-      <img class="first photo" src="./resources/images/banner.jpg" />
+  <div class="jumbotron" role="presentation">
+    <div class="jumbo image-container" role="presentation">
+      <img class="first photo" role="img" alt="Students studying on a picnic table" src="./resources/images/banner.jpg" />
     </div>
     <div class= "jumbo motto">
       <h1>Learn something</h1>
       <h1>new everyday</h1>
       <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-      <div class="button">
+      <div class="button" role="button">
         <a href="#">Start Here</a>
       </div>
     </div>
   </div>
     <!-- Intro-->
-    <div class="intropage">
-      <div class="introduction">
-        <img class="second photo image-container" src="./resources/images/information-main.jpg" />
+    <div class="intropage" role="presentation">
+      <div class="introduction" role="presentation">
+        <img class="second photo image-container" role="img" alt="Male reading a book" src="./resources/images/information-main.jpg" />
         <h2>It doesn't hurt to keep practicing</h2>
         <h4>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</h4>
         <p>Emmanuel, Sr Strategist at Hiring.com</p>
       </div>
-      <div class= "intro info">
-        <div class=" numeroun info-square">
-          <img class="image-container" src="./resources/images/information-orientation.jpg" />
+      <div class= "intro info" role="presentation">
+        <div class=" numeroun info-square" role="presentation">
+          <img class="image-container" role="img" src="./resources/images/information-orientation.jpg" />
           <div class="info-square-text">
             <h3>Orientation date</h3>
             <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
             <a href="#">Read more</a>
           </div>
         </div>
-        <div class=" numerodeux info-square">
-          <img class="image-container" src="./resources/images/information-campus.jpg" />
+        <div class=" numerodeux info-square" role="presentation">
+          <img class="image-container" role="img" src="./resources/images/information-campus.jpg" />
           <div class="info-square-text">
             <h3>Our Campus</h3>
             <p>Find which campus is close by you</p>
             <a href="#">Read more</a>
           </div>
         </div>
-        <div class=" numerotrois info-square">
-          <img class="image-container" src="./resources/images/information-guest-lecture.jpg" />
+        <div class=" numerotrois info-square" role="presentation">
+          <img class="image-container" role="img" src="./resources/images/information-guest-lecture.jpg" />
           <div class="info-square-text">
             <h3>Our guest lecture</h3>
             <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -78,57 +78,57 @@
       </div>
     </div>
     <!-- Course Menu-->
-  <div class="course-menu">
-    <h2 id="startlearning-title">Start Learning</h2>
-    <div class="courses">
-      <div class=" un course-square">
-        <img class="image-container" src="./resources/images/course-software.jpg" />
-        <div class=" course-square-text">
-          <h3>Software engineering</h3>
+  <div class="course-menu" role="presentation">
+    <h2 id="startlearning-title" role="heading">Start Learning</h2>
+    <div class="courses" role="presentation">
+      <div class=" un course-square" role="presentation">
+        <img class="image-container" role="img" src="./resources/images/course-software.jpg" />
+        <div class=" course-square-text" role="presentation">
+          <h3 aria-label="course">Software engineering</h3>
           <p>COURSES</p>
           <p>Web Development, Mobile Development, iOT, APIs</p>
           <p></p>
         </div>
       </div>
-      <div class="deux course-square">
-        <img class="image-container" src="./resources/images/course-computer-art.jpg" />
-        <div class="course-square-text">
-          <h3>Computer art</h3>
+      <div class="deux course-square" role="presentation">
+        <img class="image-container" role="img" src="./resources/images/course-computer-art.jpg" />
+        <div class="course-square-text" role="presentation">
+          <h3 aria-label="course">Computer art</h3>
           <p>COURSES</p>
           <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
         </div>
       </div>
-      <div class="trois course-square">
-        <img class="image-container" src="./resources/images/course-design.jpg" />
-        <div class="course-square-text">
-          <h3>Design</h3>
+      <div class="trois course-square" role="presentation">
+        <img class="image-container" role="img" src="./resources/images/course-design.jpg" />
+        <div class="course-square-text" role="presentation">
+          <h3 aria-label="course">Design</h3>
           <p>COURSES</p>
           <p>User Experience Design, User Research, Visual Design</p>
           <p></p>
         </div>
       </div>
-      <div class="quatre course-square">
-        <img class="image-container" src="./resources/images/course-data.jpg" />
-        <div class="course-square-text">
-          <h3>Data</h3>
+      <div class="quatre course-square" role="presentation">
+        <img class="image-container" role="img" src="./resources/images/course-data.jpg" />
+        <div class="course-square-text" role="presentation">
+          <h3 aria-label="course">Data</h3>
           <p>COURSES</p>
           <p>Data Science, Big Data, SQL, Data Visualization</p>
           <p></p>
         </div>
       </div>
-      <div class="cinq course-square">
-        <img class="image-container" src="./resources/images/course-business.jpg" />
-        <div class="course-square-text">
-          <h3>Business</h3>
+      <div class="cinq course-square" role="presentation">
+        <img class="image-container" role="img" src="./resources/images/course-business.jpg" />
+        <div class="course-square-text" role="presentation">
+          <h3 aria-label="course">Business</h3>
           <p>COURSES</p>
           <p>Product Development, Business Development, Startup</p>
           <p></p>
         </div>
       </div>
-      <div class="six course-square">
-        <img class="image-container" src="./resources/images/course-marketing.jpg" />
-        <div class="course-square-text">
-          <h3>Marketing</h3>
+      <div class="six course-square" role="presentation">
+        <img class="image-container" role="img" src="./resources/images/course-marketing.jpg" />
+        <div class="course-square-text" role="presentation">
+          <h3 aria-label="course">Marketing</h3>
           <h5>COURSES</h5>
           <p>Analytics, Content Marketing, Mobile Marketing</p>
           <p></p>
@@ -137,28 +137,28 @@
     </div>
   </div>
     <!-- Thesis section-->
-    <div class="thesis-section">
-      <div class="thesis-title">
+    <div class="thesis-section" role="presentation">
+      <div class="thesis-title" role="heading">
         <h2>Thesis exhibit</h2>
       </div>
-      <div class="thesis-second-section">
-        <div class="thesis-intro ">
-          <video class="video image-container" src="./resources/videos/thesis.mp4" autoplay loop controls>Video not supported</video>
+      <div class="thesis-second-section" role="presentation">
+        <div class="thesis-intro" role="presentation">
+          <video class="video image-container" alt="Urban building video" src="./resources/videos/thesis.mp4" autoplay loop controls>Video not supported</video>
           <h3>Reimagine urban</h3>
           <h4>Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.</h4>
         </div>
-        <div class= "thesis-info">
-          <div class=" premier thesis-square">
-            <img class="image-container" src="./resources/images/thesis-fisma.jpg" />
-            <div class="thesis-square-text">
-              <h3>Fisma: Design and Prototype</h3>
+        <div class= "thesis-info" role="presentation">
+          <div class=" premier thesis-square" role="presentation">
+            <img class="image-container" role="img" src="./resources/images/thesis-fisma.jpg" />
+            <div class="thesis-square-text" role="presentation">
+              <h3 aria-label="thesis">Fisma: Design and Prototype</h3>
               <p>Designer showcase of new prototype product</p>
             </div>
           </div>
-          <div class="deuxieme thesis-square">
-            <img class="image-container" src="./resources/images/thesis-now-and-then.jpg" />
-            <div class="thesis-square-text">
-              <h3>Now and then</h3>
+          <div class="deuxieme thesis-square" role="presentation">
+            <img class="image-container" role="img" src="./resources/images/thesis-now-and-then.jpg" />
+            <div class="thesis-square-text" role="presentation">
+              <h3 aria-label="thesis">Now and then</h3>
               <p>Research study about New York</p>
             </div>
           </div>
