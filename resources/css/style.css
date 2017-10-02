@@ -4,12 +4,6 @@ html {
   font-size: 16px;
 }
 
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 14px;
-  }
-}
-
 /* Header */
 .header {
   position: fixed;
@@ -171,7 +165,7 @@ html {
   font-family: Verdana; /* new font */
   font-weight: 300;
   font-size: 0.75rem;
-  margin: 0rem 1.5rem;
+  margin: 0rem 0rem 2rem 1.5rem ;
 }
 
 .intro {
@@ -242,7 +236,7 @@ html {
   display: block;
   padding: 2rem 4.5rem;
 }
-#thesis-title {
+#startlearning-title {
   font-family: Verdana; /* new font */
   font-weight: bold;
   color: #3A4258;
@@ -422,4 +416,160 @@ footer p {
   font-weight: 300;
   font-size: 0.75rem;
   margin: 1rem 1.5rem;
+}
+
+
+/*Media queries  #1 : for Header*/
+@media only screen and (min-width: 480px) {
+  .header-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header {
+    display: none;
+  }
+  .header-mobile {
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem 1.5rem;
+    position: fixed;
+    z-index: 10;
+    align-items: center;
+    background-color: white;
+    height: 4rem;
+    width:100%;
+  }
+  .header .logo {
+    display: flex;
+    flex-grow: 1;
+    height: 2rem;
+  }
+  .header img {
+    height: 2rem;
+  }
+}
+/*Media queries  #2: for Jumbotron*/
+@media only screen and (max-width: 480px) {
+  .jumbotron {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .jumbotron .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+  .jumbotron .motto {
+    width: 100%;
+    display: block;
+    margin: 2rem 1rem;
+  }
+  .jumbotron h1 {
+    margin-bottom: 2rem;
+  }
+  .jumbotron h3 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/*Media queries  #3: for intro*/
+@media only screen and (max-width: 480px) {
+  .intropage .introduction {
+    display: none;
+  }
+  .intro {
+    width: 100%;
+    align-content: center;
+  }
+  .info-square {
+    display: flex;
+    border: none;
+    margin-left: 0rem;
+  }
+}
+
+/*Media queries  #4: for course menu*/
+@media only screen and (max-width: 480px) {
+  .course-menu {
+    background-color: white;
+    padding: 2rem 1rem;
+    border-top : 1px solid #C3C9DA;
+    border-bottom: 1px solid #C3C9DA;
+  }
+
+  #startlearning-title {
+    margin: 2rem 0rem 1rem 0rem;
+  }
+  .courses {
+    display: block;
+  }
+  .course-square {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 0.5rem;
+  background-color: #C3C9DA;
+  padding: 1rem 1rem 1.5rem 1rem;
+  }
+  .deux,
+  .cinq {
+    margin: 0rem 0rem;
+    margin-bottom: 0.5rem;
+  }
+  .course-square img {
+    display: none;
+  }
+  .course-square-text {
+    background-color: #C3C9DA;
+  }
+  .course-square-text h5 {
+    display: none;
+  }
+  .course-square-text p {
+    display: none;
+  }
+}
+
+
+/*Media queries  #5: for thesis*/
+@media only screen and (max-width: 480px) {
+  .thesis-title h2 {
+    margin: 2rem 0rem 1rem 0rem;
+  }
+  .thesis-second-section {
+      width: 100%;
+      display: block;
+  }
+  .thesis-intro {
+    width: 100%;
+  }
+  .thesis-intro .image-container {
+    margin: 0rem 0rem;
+    width: 100%;
+  }
+  .thesis-intro h3 {
+    display: none;
+  }
+  .thesis-intro h4 {
+    display: none;
+  }
+  .thesis-info {
+    display: none;
+  }
+
+}
+
+/*Media queries  #6: for footer*/
+@media only screen and (max-width: 480px) {
+  footer .right {
+    display: none;
+  }
+  footer p {
+    font-size: 1rem;
+  }
 }
